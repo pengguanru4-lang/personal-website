@@ -1,0 +1,12 @@
+# 统一换行符，避免 Windows 与 CI/Pages 之间出现整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.ico binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,14 @@
+# 系统与编辑器产生的垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+
+# 本地预览与工具产生的临时文件
+.chrome-*/
+node_modules/
